@@ -1,0 +1,145 @@
+body {
+font-family: Merriweather, serif;
+text-align: center;
+color: #513252;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family: Merriweather Black, serif;
+font-weight: 900;
+padding: 3%;
+}
+
+
+p {
+padding: 0 3% 3%;
+}
+
+hr {
+  width: 10%;
+  margin: auto;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+/* To give navbar links more space between each other */
+.navbar-item {
+  padding: 0 15px;
+}
+
+/* To change the links size bigger */
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+.colored-section {
+  background-color: #937DC2;
+    color: #513252;
+}
+
+
+/* Heading section */
+
+.main-heading {
+  padding: 0 15%;
+}
+
+.header-title {
+  padding: 0 20%;
+}
+
+.header-picture {
+padding: 0 15%;
+}
+
+.button-space {
+  position: absolute;
+  z-index: 1;
+  top:80%;
+}
+
+.button-place {
+  padding: 5%;
+}
+
+.button {
+padding: 3%;
+font-size: 2rem;
+background-color: #fff;
+}
+
+/* Facts section */
+
+.white-section {
+  background-color: #fff;
+  padding: 5%;
+}
+
+.facts {
+margin: auto;
+text-align: left;
+padding: 5% 10% 0;
+position: relative;
+}
+
+.cat-img {
+  float: left;
+  margin: 0 20px 20px 0;
+
+}
+
+.dog-img {
+  float: right;
+}
+
+/* Carousel section */
+
+.adoption-img {
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-heading {
+  padding-top: 5%;
+  padding-bottom: 0;
+}
+
+/* Products section */
+
+.section-products {
+  padding-bottom: 3%;
+}
+
+.product-img {
+  margin: 3%;
+}
+
+
+/* Footer section */
+
+#footer.white-section {
+  padding: 3%;
+}
+
+@media (max-width: 990px) {
+  .button-space {
+    position:static;
+  }
+  .header-img {
+    width: 100%;
+  }
+  .dog-img {
+    float: none;
+  }
+  .cat-img {
+    float: none;
+}
+}
