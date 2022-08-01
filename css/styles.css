@@ -63,7 +63,7 @@ padding: 0 15%;
 .button-space {
   position: absolute;
   z-index: 1;
-  top:80%;
+  top:60%;
 }
 
 .button-place {
@@ -142,4 +142,16 @@ position: relative;
   .cat-img {
     float: none;
 }
+}
+
+@media (max-width: 1700px) {
+  .button-space {
+    top:70%;
+  }
+}
+
+@media (max-width: 1370px) {
+  .button-space {
+    top:80%;
+  }
 }
